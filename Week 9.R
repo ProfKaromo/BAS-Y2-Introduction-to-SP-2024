@@ -5,3 +5,6 @@ cor(x,y)
 cor(x,y,method = "pearson")
 cor(x,y,method = "spearman")
 cor(x,y,method = "kendall")
+
+
+
