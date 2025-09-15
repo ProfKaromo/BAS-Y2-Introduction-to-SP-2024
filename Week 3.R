@@ -14,13 +14,13 @@ print(factor_apple)
 print(nlevels(factor_apple))
 
 #Dataframe
-name <- c("Alex","Jane","Joan","Kim","Charles")
-age <-c(20,23,22,19,20)
-county <- c("Nakuru","Embu","Nairobi","Nyeri","Kisumu")
-weight <- c(55,60,57,48,56)
-grade <- c("B","B+","A-","B-","C+")
+Name <- c("Alex","Jane","Joan","Kim","Charles")
+Age <-c(20,23,22,19,20)
+County <- c("Nakuru","Embu","Nairobi","Nyeri","Kisumu")
+Weight <- c(55,60,57,48,56)
+Grade <- c("B","B+","A-","B-","C+")
 
-MyData <- cbind(name,age,county,weight,grade)
+MyData <- cbind(Name,Age,County,Weight,Grade)
 MyData <- as.data.frame(MyData)
 MyData
 
@@ -46,7 +46,7 @@ gender <- c("M","F","F","M","M")
 cbind(MyData,gender)
 
 #Droping/Deleting 
-MyData[,-6]
+MyData[,-(4:6)]
 
 MyData$gender <- c("M","F","F","M","M")
 MyData

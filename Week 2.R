@@ -29,9 +29,21 @@ class(v7)
 v8 <- c(3,5,8,9,4)
 v8
 
+myint <- c(5L,8L,2L)
+print(class(myint))
+
+if(FALSE){
+  vt <- c(5,"jane",3-6i)
+  vt
+  print(class(vt))
+}
+
+myvec <- c("orages","mangoes","bananas")
+print(class(myvec))
+
 #Lists
 #created usig the list()/hold different types of elements
-v9 <- list("hi",1,2,3,2+8i,5L,list("jane",20,"Embu",58))
+v9 <- list("hi",1,2,3,2+8i,5L,list("jane",20,"Embu",58),cos(30))
 v9
 
 #Matrix
@@ -124,3 +136,7 @@ A_c3
 
 A_ep <- A[1,3]*B[2,2]
 A_ep
+
+
+
+
