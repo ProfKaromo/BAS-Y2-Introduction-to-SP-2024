@@ -1,6 +1,6 @@
 #Measures of Central tendency
 #Arithmetic average 
-set.seed(2024)
+set.seed(2025)
 x <- c(sample(seq(2,70,3), 12, replace = T))
 x
 table(x)
@@ -33,7 +33,7 @@ quantile(x,0.5)
 #1St quantile
 quantile(x,0.25)
 #3rd
-quantile(x,0.55)
+quantile(x,0.75)
 
 #percentiles
 #37th percentile
@@ -44,7 +44,7 @@ quantile(x,0.99)
 #Measures of Dispersion
 p <- c(0.4,0.3,0.2,0.1)
 x <- c("A","B","C","D")
-grades <- sample(x,200,replace = T,prob = p)
+grades <- sample(x,30,replace = T,prob = p)
 grades
 
 #Variance

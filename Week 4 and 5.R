@@ -20,12 +20,13 @@ print(v31)
 year <- 22
 print(year)
 cat(year)
+prog <- "PA102"
 print("The student have ",year," years")
-cat("The student have ",year," years\n")
+cat("The student have ",year," years, and he is from ",prog," class\n")
 
 #Example of using cat()
-n=1000
-B=10000
+n=100
+B=1000
 #install.packages("simex")#Remove "#" to install the simex package.
 library("simex")
 

@@ -61,7 +61,7 @@ print(v| t)
 #Logical NOT operator
 v <- c(3, 0, TRUE, 2+2i)
 print(!v)
-#Logical AND operator &&
+#Logical AND operator && => have a look on this execution 
 v <- c(3,3,8,0,8)
 t <- c(1,7,2,8,7)
 print(v&&t)
@@ -82,7 +82,7 @@ print(v||t)
 
 #Miscellaneous Operators
 #Collon Operator :
-x <- 1:20
+x <- 1:20 #seq(1,20)
 x
 y <- seq(1,20,2)
 y
