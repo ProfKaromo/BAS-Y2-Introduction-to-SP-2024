@@ -54,3 +54,19 @@ MyData
 MyData$gender2 <- factor(MyData$gender,levels = c("M","F"),labels = c(1,0))
 MyData
 class(MyData[,7])
+
+for (i in 1:5) {
+  for (j in 1:5) {
+    if(i%%2==0 && j%%2==0)
+      cat(i,"*",j,"=",i*j,"\n")
+  }
+  cat("\n")
+}
+
+for(i in 1:10){
+  for(j in 1:10){
+    if(i>j)
+      cat(i," ")
+  }
+  cat("\n")
+}

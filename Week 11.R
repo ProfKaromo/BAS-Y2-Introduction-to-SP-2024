@@ -1,5 +1,5 @@
 #Density and Distribution Functions
-set.seed(2024)
+set.seed(2025)
 #Random Numbers
 #Discrete distributions
 #Binomial

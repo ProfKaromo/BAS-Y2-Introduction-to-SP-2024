@@ -26,3 +26,8 @@ hp
 
 detach(mtcars)
 model2 <- lm(mpg~hp,data = mtcars)
+
+plot(women$height,women$weight,xlab = "Heigh",ylab = "Weight",main = "Regression of Weight on Height on women")
+fit2 <- lm(women$weight~women$height)
+abline(fit2)
+summary(fit2)
