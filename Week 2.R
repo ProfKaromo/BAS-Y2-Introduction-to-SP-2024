@@ -1,6 +1,12 @@
 #Week 2
 #R Objects/Variables
+a = 300; b = 15
+c = a/b
+#cat("The value for c is => ",round(c,3))
+cat("The value for c is => ",format(c,digits = 9))
 
+k <- F # "Kenya"
+class(k)
 #Data Types in Vector R Object
 #Atomic
 v1 <- TRUE
@@ -20,6 +26,7 @@ print(class(v5))
 
 v6 <- "Hello"
 print(class(charToRaw(v6)))
+print(charToRaw(v6))
 
 #Create a vector
 #Use the c() function
