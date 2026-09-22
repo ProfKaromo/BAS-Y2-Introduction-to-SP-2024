@@ -50,7 +50,7 @@ print(class(myvec))
 
 #Lists
 #created usig the list()/hold different types of elements
-v9 <- list("hi",1,2,3,2+8i,5L,list("jane",20,"Embu",58),cos(30))
+v9 <- list("hi",1,2+8i,5L,"Jane")
 v9
 
 #Matrix

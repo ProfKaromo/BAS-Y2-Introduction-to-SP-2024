@@ -110,3 +110,31 @@ rm(d2)
 rm(list=ls(pattern = "x"))
 rm(list = ls())
    
+
+
+# --- Fibonacci Series Generator ---
+fibb <- function(){
+  # Prompt the user for input
+  n_terms <- as.integer(readline(prompt = "Enter the terms needed: "))
+  # Validation check for a positive integer input
+  if (is.na(n_terms) || n_terms <= 0) {
+    cat("Please enter a valid positive integer.\n")
+  } else {
+    # Initialize the series container vector
+    fib_series <- numeric(n_terms)
+    # Handle seed conditions base cases
+    if (n_terms >= 1) fib_series[1] <- 0
+    if (n_terms >= 2) fib_series[2] <- 1
+    
+    # Populate the remaining terms iteratively using a loop
+    if (n_terms > 2) {
+      for (i in 3:n_terms) {
+        fib_series[i] <- fib_series[i - 1] + fib_series[i - 2]
+      }
+    }
+    # Display the final series to the user
+    cat("The generated Fibonacci series is:\n")
+    print(fib_series)
+  }
+}
+fibb()
