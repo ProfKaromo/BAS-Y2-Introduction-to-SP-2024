@@ -42,11 +42,14 @@ mean(as.numeric(MyData[,4]))
 #Replacing values
 MyData[2,5] <- "B-" #Replace a Specific value
 
-gender <- c("M","F","F","M","M")
-cbind(MyData,gender)
+Gender <- c("M","F","F","M","M")
+MyData <- cbind(MyData,Gender)
 
+MyData[c(2,4),]
+MyData[,c(2,4)]
+MyData[c(2,4),c(1,5)]
 #Droping/Deleting 
-MyData[,-(4:6)]
+MyData[,-c(2,4)]
 
 MyData$gender <- c("M","F","F","M","M")
 MyData

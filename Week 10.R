@@ -2,7 +2,7 @@
 #mtcars
 View(mtcars)
 head(mtcars)
-head(mtcars,10)
+head(mtcars,8)
 tail(mtcars)
 tail(mtcars,10)
 names(mtcars)

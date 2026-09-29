@@ -1,5 +1,5 @@
 #Denstities of distribution function and culculations
-#Consider the model y1 = β0 + β1x + ei where xi ∼ N(4, 0.1), 
+#Consider the model yi = β0 + β1x + ei where xi ∼ N(4, 0.1), 
 #β0 = 1.4, β1 =  3.8, ei ∼ N(0, 0.5) write a well commented 
 #R − code that genarates 1000 values of y.
 

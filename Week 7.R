@@ -1,6 +1,6 @@
 #Measures of Central tendency
 #Arithmetic average 
-set.seed(2025)
+set.seed(2026)
 x <- c(sample(seq(2,70,3), 12, replace = T))
 x
 table(x)
@@ -49,7 +49,6 @@ grades
 
 #Variance
 x
-
 var(x)
 
 k <- 0
@@ -69,9 +68,13 @@ sd_x
 
 range(x)
 
-Kurt(x)
-Skew(x)
-hist(x)
+y <- rnorm(12, 0, 1)
+
+Kurt(y)
+Skew(y)
+hist(y)
+
+plot(density(y))
 
 #Setting working directory.
 setwd("D:\\JOSEKARODY\\KYU\\GITHUB PROJECTS REP\\workshop-f4sg-africa\\exercises\\data")

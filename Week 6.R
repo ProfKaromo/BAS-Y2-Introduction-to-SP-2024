@@ -62,9 +62,9 @@ print(v| t)
 v <- c(3, 0, TRUE, 2+2i)
 print(!v)
 #Logical AND operator && => have a look on this execution 
-v <- c(3,3,8,0,8)
-t <- c(1,7,2,8,7)
-print(v&&t)
+v <- c(3,3,8,4,8)
+t <- c(0,7,2,8,7)
+print(v[1]&&t[1])
 #Logical OR operator ||
 v <- c(T)
 t <- c(F)
@@ -95,7 +95,7 @@ y2
 # checks of it belongs to
 
 x <- 3:20
-y = 35
+y = 5
 y %in% x
 
 #Matrix Operator %*%

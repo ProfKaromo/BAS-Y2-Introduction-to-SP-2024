@@ -5,7 +5,7 @@ set.seed(2025)
 #Binomial
 xbin <- rbinom(5,10,0.5)
 xbin
-#POison
+#Poison
 xpois <- rpois(5,7)
 xpois
 
